@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/users
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "id": "11523",
+    "dataCriada": "01/01/2001",
+    "nome": "Teste"
+}
